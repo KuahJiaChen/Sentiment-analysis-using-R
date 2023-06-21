@@ -6,6 +6,13 @@ Author: Kuah Jia Chen
 
 The purpose of this project is to analyze the activity, language use, and social interactions in an online community using sentiment analysis and statistical techniques. The data for analysis is obtained from a real online forum, and the programming language used for this analysis is R.
 
+## Data
+
+The data used in this analysis is stored in the file `webforum.csv`. It includes both the metadata and linguistic analysis of posts spanning the years 2002 to 2011. For this project, a subset of 20,000 randomly selected posts from the original file will be used.
+
+The linguistic analysis was performed using Linguistic Inquiry and Word Count (LIWC), a tool that measures the prevalence of specific thoughts, feelings, and motivations by calculating the proportion of key words used in communication. If you're interested in learning more about LIWC, you can visit the [LIWC website](http://liwc.wpengine.com/). Additionally, the language manual, which provides detailed information about the analysis process, can be accessed directly from [here](http://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf).
+
+
 ## Methodology
 
 The analysis is divided into three main components:
